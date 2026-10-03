@@ -165,6 +165,35 @@ nav {
 }
 
 
+/* Personal Note */
+
+.fun-note {
+    margin-top: 45px;
+
+    padding-left: 20px;
+
+    border-left: 2px solid #444;
+
+    max-width: 700px;
+}
+
+.fun-note span {
+    color: #777;
+
+    font-size: 13px;
+
+    letter-spacing: 1px;
+}
+
+.fun-note p {
+    color: #aaa;
+
+    font-size: 18px;
+
+    margin-top: 10px;
+}
+
+
 /* Projects */
 
 .project-card {
@@ -215,6 +244,10 @@ nav {
     font-size: 14px;
 }
 
+.project-link:hover {
+    opacity: 0.7;
+}
+
 
 /* Interests */
 
@@ -249,7 +282,7 @@ nav {
 }
 
 
-/* Technologies */
+/* Stuff I'm Exploring */
 
 .tech-list {
     display: flex;
